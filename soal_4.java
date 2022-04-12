@@ -1,17 +1,14 @@
-public class empat {
-    
-    public static void evenOrOdd(int[] numbers){
-        for(int i = 0; i < numbers.length; i++){
-            if (numbers[i] % 2 == 0){
-                System.out.println("Number is genap");
-            }
-            else{
-                System.out.println("Number is Ganjil");
+public class Logically_04 {
+
+    public static void main(String[] args) {
+       int[] array= {4, 6, 1, 3, 5};
+        
+        for(int i=0; i < array.length; i++){
+               if(array[i] % 2 == 0){
+                   System.out.print("genap,");
+            }else{
+                   System.out.print(",ganjil");
             }
         }
-    }
-    public static void main(String[] args){
-        int[] numbers = {1,2,3};
-        evenOrOdd(numbers);    
     }
 }
